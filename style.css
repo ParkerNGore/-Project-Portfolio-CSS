@@ -4,34 +4,43 @@ h3,
 summary {
   text-align: center;
   background-color: #ca5310;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 body {
   background-color: #4c4c4c;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-section {
-  margin: auto;
-  width: 65%;
+.child-work {
+  background-color: #85c7f2;
+}
+
+.p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  padding: 0.75rem 0.5rem 0.5rem 0.75rem;
 
   background-color: #85c7f2;
 }
 
-.main-div {
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
-
+.parent-div {
   display: flex;
   flex-wrap: wrap;
 
   background-color: #85c7f2;
 
   margin: auto;
-  width: 65%;
 }
-
-.sub-div {
+.child-div {
+  flex-grow: 1;
+}
+.grandchild-div {
   list-style-position: inside;
   text-align: left;
 }
