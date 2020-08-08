@@ -1,46 +1,168 @@
-h1,
-h2,
-h3,
-summary {
-  text-align: center;
-  background-color: #ca5310;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+.container {
+  background-color: #4b3b40;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
-body {
-  background-color: #4c4c4c;
+header {
+  background-color: #9db17c;
+
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  text-align: left;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+}
+
+h2 {
+  padding-top: 0.5em;
+  margin-top: 0;
+  text-align: center;
+}
+main {
+  background-color: #d1f5be;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+summary {
+  padding-left: 1em;
+  padding-bottom: 0.75em;
+}
+details {
+  padding-left: 1em;
+}
+
+main li {
+  padding-top: 0.25em;
+  padding-bottom: 0.5em;
+}
+.about-me-main {
+  width: 80%;
   margin-left: 10%;
   margin-right: 10%;
 }
-
-.child-work {
-  background-color: #85c7f2;
+.about-me-main li {
+  padding-bottom: 0.55em;
 }
-
-.p {
-  margin-top: 0px;
-  margin-bottom: 0px;
-
-  padding: 0.75rem 0.5rem 0.5rem 0.75rem;
-
-  background-color: #85c7f2;
+.about-me-header {
+  background-color: #9db17c;
+  margin-bottom: 0;
 }
-
-.parent-div {
+.about-me-section {
   display: flex;
-  flex-wrap: wrap;
-
-  background-color: #85c7f2;
-
-  margin: auto;
+  background-color: #9db17c;
+  margin-top: 0;
 }
-.child-div {
-  flex-grow: 1;
+h3 {
+  background-color: #9db17c;
+
+  text-align: center;
 }
-.grandchild-div {
-  list-style-position: inside;
-  text-align: left;
+.hobby-div {
+  background-color: #d1f5be;
+  width: 50%;
+
+  margin-right: 10%;
+  margin-left: 5%;
+}
+.fact-div {
+  background-color: #d1f5be;
+  width: 50%;
+  margin-right: 5%;
+  margin-left: 10%;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #9db17c;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+a {
+  text-decoration: none;
+  color: #4b3b40;
+}
+a:hover {
+  color: #82735c;
+}
+.label {
+  display: none;
+}
+footer li {
+  list-style: none;
+}
+.icon:before {
+  font-size: 1.5em;
+}
+.email {
+  font-size: small;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #9db17c;
+}
+
+@media screen and (max-width: 980px) {
+  .about-me-main {
+    background-color: #9db17c;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .hobby-div {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .fact-div {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .about-me-section {
+    display: inline;
+  }
+  main {
+    width: 100%;
+    margin: auto;
+  }
+  header {
+    width: 100%;
+
+    margin: auto;
+  }
+  footer {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+  }
+  .copyright {
+    margin-top: 0.5em;
+  }
+  a {
+    margin-top: 0.75em;
+  }
+  h3 {
+    padding-bottom: 0.5em;
+  }
 }
